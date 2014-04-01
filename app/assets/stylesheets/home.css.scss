@@ -1,0 +1,74 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    color: #000000;
+    font-size: 16px !important;
+    margin: 0;
+    padding: 0;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+.navbar-toggle {
+    margin-top: 19px !important;
+    padding: 9px !important;
+	}
+.navbar
+{
+  background: none repeat scroll 0 0 #F5F5F4 !important;
+  margin: 0 !important;
+  padding: 0 3% 0 2% !important;
+  width: 100% !important;
+	.navbar-default 
+	{
+		background-color: #F5F5F4 !important;
+	}
+	.container-fluid
+	{
+    margin: 0 auto !important;
+    max-width: 1100px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    width: auto !important;
+		.navbar-header
+		{
+			.logo 
+			{
+		    float: left;
+		    margin-left: 20px;
+		    max-width: 220px;
+		    padding: 10px 0 0;
+		    width: auto;
+			}
+			
+		}
+		.navbar-collapse
+		{			
+			.navbar-nav 
+			{
+		    float: right;
+				list-style: none outside none;
+		    margin: 0;
+		    padding: 15px 20px 0 0;
+				li
+				{
+					a 
+					{
+				    color: #332F2E;
+				    font-family: 'corporaterounded-plainregular',serif;
+				    font-size: 20px;
+				    font-weight: normal;
+				    padding: 12px 25px 20px;
+					}
+			    .activated
+			    {
+			      display: block;
+			      border-bottom: solid 5px #81c341;
+			    }
+				}
+			}
+		}
+	}
+}
